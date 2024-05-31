@@ -1,0 +1,25 @@
+@use 'variaveis';
+
+h1 {
+    color: variaveis.$corBackgroud;
+}
+
+h2 {
+    color: variaveis.$corDois;
+}
+
+h3 {
+    color: variaveis.$corTres;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: variaveis.$corUm;
+}
+canvas {
+    border: 1px solid variaveis.$corDois;
+}
